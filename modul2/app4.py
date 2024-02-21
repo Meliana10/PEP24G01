@@ -1,14 +1,6 @@
-# Se va cere input de la utilizator 2 numere. Se calculeaza:
-# a. media numerelor
-a = int(input('Introdu primul numar: '))
-b = int(input('Introdu al doilea numar: '))
-media = (a + b) / 2
-print(media)
-
-# b. impartirea primului nr la al doilea
-imp = a // b
-print("Integer division =", imp)
-
-# c. ridicarea la putere. al doilea nr la primul
-ridic = a ** b
-print("Ridicare la putere =", ridic)
+net = input('Venit:')
+int_net = int(net)
+print('Recomandarile noastre:')
+print('Cheltuieli uzuale:', int_net * 50 * (1 / 100))
+print('Recreere:', int_net * 30 * (1 / 100))
+print('Economii si datorii:', int_net * 20 * (1 / 100))
